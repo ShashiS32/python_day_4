@@ -1,14 +1,11 @@
 import random
 
-randominte = random.randint(1 , 10)
-print (randominte)
+coin = input("Choose heads or tails (1 for heads, 0 for tails): ")
 
-random_flooat = random.random()
+headsortails = random.randint(0,1)
 
-
-
-print (random_flooat * 5)
-
-love = random.randint (1,100)
-
-print (love)
+coin = headsortails
+if coin == 1:
+  print ("The coin landed on heads")
+else: 
+  print ("The coin landed on tails")
