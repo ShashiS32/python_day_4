@@ -1,10 +1,9 @@
 import random
 
-coin = input("Choose heads or tails (1 for heads, 0 for tails): ")
+print ("Welcome to the coin simulation, heads = 1, tails = 0")
 
-headsortails = random.randint(0,1)
+coin = random.randint(0,1)
 
-coin = headsortails
 if coin == 1:
   print ("The coin landed on heads")
 else: 
