@@ -8,3 +8,4 @@ if coin == 1:
   print ("The coin landed on heads")
 else: 
   print ("The coin landed on tails")
+
